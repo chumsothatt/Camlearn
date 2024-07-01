@@ -1,0 +1,370 @@
+
+
+/* ----------------------------menu---------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+    @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Moul&display=swap');
+}
+.menu{
+    width: 90%;
+    height: 150px;
+    background-color: rgb(138, 139, 138);
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+
+}
+.menu{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+.menu .left{
+    width: 30%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.menu .left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(0, 255, 132); */
+    overflow: hidden;
+    /* justify-content: center; */
+    align-items: center;
+    display: flex;
+}
+.menu .left img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    /* padding-left: 100px; */
+    /* background-color: rgb(98, 30, 166); */
+    padding: 35px 15px;
+    border-radius: 50%;
+}
+/*-----------------right---------------- */
+.menu .right{
+    width: 70%;
+    height: 100%;
+    background-color: rgb(210, 213, 211);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+.menu .right .ul ul{
+    display: flex;
+}
+.menu .right .ul ul li{
+    list-style-type: none;
+    padding-left: 30px;
+}
+.menu .right .ul ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.menu .right .ul ul li a{
+    font-family: "Moul", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.menu .right .ul .button button{
+    background-color: blue;
+    padding: 20px 40px;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-top: -10px;
+}
+.menu .right .ul ul li a{
+    position: relative;
+
+}
+.menu .right .ul ul li a::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 10px;
+    background-color: red;
+    bottom: 0;
+    border-radius: 20px;
+}
+.menu .right .ul ul li a:hover::before{
+    width: 50%;
+    transition: 0.7s;
+    right: 50%;
+}
+.menu .right .ul ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 10px;
+    background-color: deeppink;
+    left: 50%;
+    border-radius: 20px;
+    bottom: 0;
+
+}
+.menu .right .ul ul li a:hover::after{
+    width: 50%;
+    transition: 0.7s;
+}
+/* -----------------------------------------menu-------------------------------- */
+.contain1{
+    width: 100%;
+    height: 150px;
+    /* background-color: yellow; */
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid rgba(128, 128, 128, 0.295);
+    
+}
+.contain1 h1{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+}
+.contain1:hover{
+    box-shadow: 5px 5px 5px black;
+    transition: 0.9s;
+    background-color: coral;
+    color: white;
+}
+/* ------------------------------------------contain1--------------------------- */
+
+/* -----------------------------------------contain2---------------------------- */
+
+.contain2{
+    width: 90%;
+    height: 700px;
+    /* background-color: brown; */
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+.contain2 .a{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.contain2 .a .a1{
+    width: 100%;
+    height: 40%;
+    /* background-color: rebeccapurple; */
+    text-align: center;
+
+}
+.contain2 .a .a1 p{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+}
+.contain2 .a .a1 h1{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 40px;
+    color: rgb(42, 9, 208);
+}
+
+.contain2 .a .a2{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(41, 182, 28); */
+    display: flex;
+}
+.contain2 .a .a2 .a2a{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(114, 29, 73); */
+    display: flex;
+   
+}
+.contain2 .a .a2 .a2a i{
+
+    padding: 15px 15px;
+    position: absolute;
+    border-radius: 50%;
+    margin-top: 8px;
+    border: 2px solid blue;
+}
+.contain2 .a .a2 .a2a h3{
+    position: absolute;
+    margin-left: 60px;
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+    margin-top: 8px;
+}
+.contain2 .a .a2 .a2a .div1{
+    display: flex;
+    /* padding-top: 20px; */
+}
+.contain2 .a .a2 .a2a .div2{
+    position: absolute;
+    /* background-color: rebeccapurple; */
+    padding-top: 100px;
+    display: flex;
+}
+.contain2 .a .a2 .a2a .div3{
+    padding-top: 200px;
+}
+
+.contain2 .a .a2 .a2b{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(121, 184, 27); */
+}
+.contain2 .a .a2 .a2b i{
+    position: absolute;
+}
+.contain2 .a .a2 .a2b:hover i{
+    background-color: red;
+    font-size: 30px;
+    transition: 0.9s;
+    color: rgb(229, 235, 79);
+    
+}
+.contain2 .a .a2 .a2a:hover i{
+    background-color: red;
+    font-size: 30px;
+    transition: 0.9s;
+    color: rgb(229, 235, 79);
+    
+}
+
+
+
+.contain2 .a .a3{
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(21, 14, 163); */
+}
+.contain2 .a .a3 button{
+    padding: 30px 200px;
+    font-size: 40px;
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+}
+.contain2 .a .a3 button:hover{
+    background-color: red;
+    transition: 0.9s;
+    padding: 30px 250px;
+}
+/* ----------------------------------------- */
+.contain2 .b{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(19, 164, 162);
+    overflow: hidden;
+}
+.contain2 .b img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* -------------------------------------------contain2-------------------------- */
+
+/* -------------------------------------------contain3-------------------------- */
+
+.contain3{
+    width: 100%;
+    height: 170px;
+    /* background-color: rgb(85, 87, 87); */
+    margin: 0 auto;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 3px solid rgba(255, 0, 0, 0.192);
+    margin-bottom: 50px;
+}
+.contain3:hover{
+    background-color: cornflowerblue;
+    transition: 0.9s;
+    border: none;
+}
+.contain3 h1{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 70px;
+    color: blue;
+}
+.contain3:hover h1{
+    color: white;
+    transition: 0.9s;
+
+}
+/* -------------------------------------------contain3--------------------------- */
+/* -------------------------------------------contain4---------------------------- */
+
+.contain4{
+    width: 90%;
+    height: 800px;
+    /* background-color: rgba(185, 189, 188, 0.491); */
+    margin: 0 auto
+}
+.contain4:hover{
+    background-color: rgba(172, 255, 47, 0.238);
+    transition: 0.9s;
+}
+.contain4 .pic{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contain4 .pic img{
+    width: 400px;
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 50%;
+}
+.contain4 .pic img:hover{
+    background-color: cornflowerblue;
+    transition: 0.9s;   
+}
+.contain4 .text p{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+}
+.contain4 .text h4{
+    font-family: "Battambang", system-ui;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+#text{
+    font-size: 40px;
+    color: blue;
+}
+#text:hover{
+    color: red;
+    transition: 0.9s;
+    font-size: 70px;
+}
+/* -------------------------------------------contain4----------------------------- */
+
